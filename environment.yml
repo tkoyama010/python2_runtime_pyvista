@@ -1,0 +1,14 @@
+
+name: pyvista-environment
+channels:
+  - pyviz
+dependencies:
+  - python=2.7
+  - bokeh
+  - pyviz_comms
+  - panel
+  - lxml
+  - pip:
+    - git+git://github.com/pyvista/pyvista@master
+    - matplotlib
+    - pyct
